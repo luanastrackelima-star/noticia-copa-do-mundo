@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasil vence Japão e avança na Copa do Mundo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>COPA DO MUNDO 2026</h1>
+    <p>Últimas Notícias</p>
+</header>
+
+<main>
+
+    <article class="noticia">
+
+        <h2>Brasil vence Japão por 2 a 1 e garante vaga nas oitavas de final</h2>
+
+        <p class="data">
+            Publicado em 01 de julho de 2026
+        </p>
+
+        <img
+            src="img/brasil-japao.jpg"
+            alt="Brasil x Japão"
+            id="imagemNoticia">
+
+        <p>
+            A Seleção Brasileira conquistou uma importante vitória sobre o Japão
+            pelo placar de <strong>2 a 1</strong>, garantindo sua classificação
+            para as oitavas de final da Copa do Mundo de 2026.
+        </p>
+
+        <p>
+            O Brasil apresentou um futebol ofensivo durante grande parte da partida,
+            criando diversas oportunidades de gol e dominando a posse de bola.
+            O Japão também mostrou qualidade técnica e dificultou o trabalho da
+            equipe brasileira, principalmente no segundo tempo.
+        </p>
+
+        <p>
+            Com a vitória, a equipe comandada pelo treinador brasileiro segue viva
+            na competição e agora volta suas atenções para o próximo desafio,
+            buscando uma vaga nas quartas de final.
+        </p>
+
+        <button id="btnMensagem">
+            Ver Mensagem
+        </button>
+
+        <div id="mensagem"></div>
+
+    </article>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
